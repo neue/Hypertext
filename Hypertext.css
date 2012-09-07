@@ -1,0 +1,67 @@
+body { font-family: Menlo, Monaco, Consolas, monospace; font-size: 11px; line-height: 17px; color: #1C1C1C; }
+
+a { color: #381FFF; text-decoration: underline; }
+
+a:hover { color: #E44A5F; }
+
+h1, h2 { font-family: "Georgia", "Times New Roman", serif; color: #381FFF; }
+
+h1 { font-size: 55px; line-height: 63px; }
+
+h2 { font-size: 33px; line-height: 49px; }
+
+h3 a { text-decoration: none; }
+
+#container { padding-top: 119px; }
+
+a.pagnation { font-family: Menlo, Monaco, Consolas, monospace; position: fixed; color: #381FFF; background-color: #fff; font-size: 12px; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; text-decoration: none; padding: 9px 10px; line-height: 12px; }
+
+.topLeft { top: 20px; left: 20px; }
+
+.topRight { top: 20px; right: 20px; }
+
+.bottomLeft { bottom: 20px; left: 20px; }
+
+.bottomRight { bottom: 20px; right: 20px; }
+
+a.pagnation:hover { background-color: #E44A5F; color: #fff; }
+
+#about { font-family: "Georgia", "Times New Roman", serif; font-size: 33px; line-height: 49px; text-align: center; color: #fff; position: fixed; top: 0px; left: 0px; width: 100%; height: 0%; -webkit-transition-property: height; -moz-transition-property: height; -ms-transition-property: height; -o-transition-property: height; transition-property: height; -webkit-transition-duration: 0.4s; -moz-transition-duration: 0.4s; -ms-transition-duration: 0.4s; -o-transition-duration: 0.4s; transition-duration: 0.4s; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -ms-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; background-color: #212121; overflow: hidden; z-index: 2; }
+
+#about.open { height: 100%; }
+
+#about div { position: relative; width: 50%; top: 50%; margin: -120px auto 0px auto; }
+
+#about a#closelink { position: absolute; }
+
+#header { padding-top: 17px; height: 102px; position: fixed; width: 100%; text-align: center; z-index: 1; }
+
+#header div { padding-top: 9px; position: relative; top: 0; opacity: 1; -webkit-transition-property: opacity,top; -moz-transition-property: opacity,top; -ms-transition-property: opacity,top; -o-transition-property: opacity,top; transition-property: opacity,top; -webkit-transition-duration: 0.2s; -moz-transition-duration: 0.2s; -ms-transition-duration: 0.2s; -o-transition-duration: 0.2s; transition-duration: 0.2s; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -ms-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; }
+
+#header.hidden div { top: -10px; opacity: 0; }
+
+#header:hover div { top: 0; opacity: 1; }
+
+#header a { text-decoration: none; }
+
+#footer { margin-top: 34px; text-align: center; margin-bottom: 20px; }
+
+#footer a.pagnation { position: static; display: inline-block; }
+
+.post { max-width: 100%; margin: 34px auto 0px auto; }
+
+.post.text .content { max-width: 500px; margin: 0 auto; }
+
+.post.photo, .post.video { text-align: center; }
+
+.post.photo img { max-width: 100%; }
+
+.post .caption { max-width: 500px; margin: 0px auto; text-align: center; }
+
+.post .meta { opacity: 0; margin: 17px auto 0 auto; max-width: 500px; color: #9B9B9B; text-decoration: none; text-align: center; -webkit-transition-property: opacity,top; -moz-transition-property: opacity,top; -ms-transition-property: opacity,top; -o-transition-property: opacity,top; transition-property: opacity,top; -webkit-transition-duration: 0.2s; -moz-transition-duration: 0.2s; -ms-transition-duration: 0.2s; -o-transition-duration: 0.2s; transition-duration: 0.2s; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -ms-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; }
+
+.post:hover .meta { opacity: 1; }
+
+.post .meta a { color: #9B9B9B; text-decoration: none; }
+
+.post .meta a:hover { color: #E44A5F; }
