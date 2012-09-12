@@ -9,6 +9,7 @@ body {
     font-size: 11px;
     line-height: $baseline;
     color: #1C1C1C;
+	background-color: #ffffff;
 //    background-image: url("baseline.gif");
 }
 
@@ -29,6 +30,8 @@ h1, h2, {
 h1 { font-size: 55px; line-height: 63px; }
 h2 { font-size: 33px; line-height: 49px; }
 h3 a {text-decoration: none;}
+
+strong { font-weight: bold; }
 
 #container {
     padding-top: $baseline * 7;
@@ -79,11 +82,12 @@ a.pagnation:hover {
     height: 100%;
 }
 
-#about div {
+#about .abouttext {
     position: relative;
-    width: 50%;
+    width: 500px;
+	height: 400px;
     top: 50%;
-    margin: -120px auto 0px auto;
+    margin: -200px auto 0 auto;
 }
 
 #about a#closelink {
@@ -108,7 +112,6 @@ a.pagnation:hover {
     width: 100%;
     text-align: center;
     z-index: 1;
-    
 }
 
 #header div {
@@ -165,6 +168,15 @@ a.pagnation:hover {
 
 .post.photo img {
     max-width: 100%;
+}
+
+.post.audio {
+	width: 207px;
+	text-align: center;
+}
+
+.post.audio .audiocontainer img.albumArt {
+	display: block;
 }
 
 .post .caption {
